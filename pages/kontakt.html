@@ -14,5 +14,23 @@
             <li><a href="presentation.html">Presentation</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
+        
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+            <fieldset>
+                <legend>Fråga</legend>
+                Namn: <input type="text" name="namn"><br>
+                Ärende:<select name="arende">
+                    <option value="fraga">Fråga</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="Tips">Tips</option>
+                </select><br>
+            </fieldset>
+            <fieldset>
+                <legend>Kontakt</legend>
+                <input type="checkbox" name="mail" value="mail">Kontakta mig via mail<br>
+                <input type="checkbox" name="phone" value="phone">Kontakta mig via telefon<br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
     </body>
 </html>    
