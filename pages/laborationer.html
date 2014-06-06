@@ -3,141 +3,164 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>Filip Engström</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
     </head>
     <body>
-    <h1>Filip Engström</h1>
+    <div class="container">
     
-        <ul>
-            <li><a href="../index.html">Start</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="presentation.html">Presentation</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+        <div class="header">
+            <div class="logo">
+                <img src="../pics/person.png" alt="logo">
+                <h1>Filip Engström</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Start</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div> <!-- End Header -->
         
-        <a href="presentation.html#me_img">Bild på mig!</a>
-        
-        <!-- Kursnamn div -->
-        <div>
-            <h2>Laborationer</h2>
+        <div class="sidemenu">
+            <h3>Navigation</h3><br>
+            
+            <p><a href="presentation.html#me_img">Hur ser jag ut?</a></p><br>
+            
             
             <ul>
-                <li><a href="">Webbteknisk introduktion</a></li>
+                <li><h4><a href="#lab_1">Laboration 1 - Struktur och innehåll</a></h4>
+                    <ul>
+                        <li><a href="#wi_resultat">Resultat</a></li>
+                        <li><a href="#wi_l01">Uppgift 1</a></li>
+                        <li><a href="#wi_l02">Uppgift 2</a></li>
+                        <li><a href="#wi_l03">Uppgift 3</a></li>
+                        <li><a href="#wi_l04">Uppgift 4</a></li>
+                        <li><a href="#wi_l05">Uppgift 5</a></li>
+                        <li><a href="#wi_l06">Uppgift 6</a></li>
+                        <li><a href="#wi_l07">Uppgift 7</a></li>
+                        <li><a href="#wi_l08">Uppgift 8</a></li>
+                        <li><a href="#wi_l09">Uppgift 9</a></li>
+                    </ul>
+                </li><br>
+                <li><h4><a href="#lab_2">Laboration 2 - En stiligare portal</a></h4>
+                    <ul>
+                        <li><a href="#wi_l21">Uppgift 1</a></li>
+                        <li><a href="#wi_l22">Uppgift 2</a></li>
+                    </ul>
+                </li>
             </ul>
-            
-        </div>
+               
+        </div><!-- End Sidemenu -->
         
-        <!-- Webbteknisk intro -->
-        <div>
-            <h3>Webbteknisk introduktion</h3>
-            <ol>
-                <li><a href="#wi_resultat">Resultat</a></li>
-                <li><a href="#wi_l01">Laboration 1</a></li>
-                <li><a href="#wi_l02">Laboration 2</a></li>
-                <li><a href="#wi_l03">Laboration 3</a></li>
-                <li><a href="#wi_l04">Laboration 4</a></li>
-                <li><a href="#wi_l05">Laboration 5</a></li>
-                <li><a href="#wi_l06">Laboration 6</a></li>
-                <li><a href="#wi_l07">Laboration 7</a></li>
-                <li><a href="#wi_l08">Laboration 8</a></li>
-                <li><a href="#wi_l08">Laboration 9</a></li>
-            </ol>
+        
+        <div class="content">
+        
+        <!-- Kursnamn div -->
+            <div class="uppgifter" id="Lab_1">
+                <h2>Laboration 1 - Struktur och innehåll</h2><br>
+                
+                 <div id="wi_resultat">
+                    <h4>Resultat</h4><br>
+                    
+                    <table border=1>
+                        <thead>
+                            <tr>
+                                <th>Laboration</th>
+                                <th>Uppgift</th>
+                                <th>Status</th>
+                                <th>Redovisad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan=3>1</td>
+                                <td>1</td>
+                                <td>Godkänd</td>
+                                <td>2014-06-02</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Godkänd</td>
+                                <td>2014-06-02</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Godkänd</td>
+                                <td>2014-06-02</td>
+                            </tr>
+                            <tr>
+                                <td rowspan=6>2</td>
+                                <td>1</td>
+                                <td>Godkänd</td>
+                                <td>2014-06-02</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Godkänd</td>
+                                <td>2014-06-02</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Godkänd</td>
+                                <td>2014-06-02</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Färdig</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Påbörjad</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Ej påbörjad</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan=4>Laborationsresultat för Filip Engström</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div><!-- End resultat --><br>
             
-            <!-- Resultat tabell -->
-            <div id="wi_resultat">
-                <table border=1>
-                    <thead>
-                        <tr>
-                            <th>Laboration</th>
-                            <th>Uppgift</th>
-                            <th>Status</th>
-                            <th>Redovisad</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td rowspan=3>1</td>
-                            <td>1</td>
-                            <td>Godkänd</td>
-                            <td>2014-06-02</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Godkänd</td>
-                            <td>2014-06-02</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Godkänd</td>
-                            <td>2014-06-02</td>
-                        </tr>
-                        <tr>
-                            <td rowspan=6>2</td>
-                            <td>1</td>
-                            <td>Godkänd</td>
-                            <td>2014-06-02</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Godkänd</td>
-                            <td>2014-06-02</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Godkänd</td>
-                            <td>2014-06-02</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Färdig</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Påbörjad</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Ej påbörjad</td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan=4>Laborationsresultat för Filip Engström</td>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
-            
-            <!-- Labb div -->
-            <div id="wi_l01">
-                <h4>Laboration 1</h4>
+            <div class="uppgifter" id="wi_l01">
+                <h4>Laboration 1 Uppgift 01</h4>
                 <dl>
                     <dt>Uppgift</dt>
                     <dd>www-katalog..........check</dd>
                 </dl>
-            </div>
-            <div id="wi_l02">
-                <h4>Laboration 2</h4>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l02">
+                <h4>Laboration 1 Uppgift 02</h4>
                 <dl>
                     <dt>Uppgift</dt>
                     <dd>Ett första dokument</dd>
                 </dl>
-            </div>
-            <div id="wi_l03">
-                <h4>Laboration 3</h4>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l03">
+                <h4>Laboration 1 Uppgift 03</h4>
                 <dl>
                     <dt>Uppgift</dt>
                     <dd>Startsidan</dd>
                 </dl>
-            </div>
-            <div id="wi_l04">
-                <h4>Laboration 4</h4>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l04">
+                <h4>Laboration 1 Uppgift 04</h4>
                 <dl>
                     <dt>Uppgift</dt>
                     <dd>Absoluta/Relativa sökvägar</dd>
-                </dl>    
+                </dl><br>    
                 <dl>
                     <dt>Vilken är den absoluta sökvägen till filen bottom.html?</dt>
                             <dd>www.server.se/html/pages/bottom.html</dd>
@@ -157,42 +180,72 @@
                     <dt>Vilken är den relativa sökvägen från filen index.html till top.html?</dt>
                             <dd>html/pages/top.html</dd>
                 </dl>
-            </div>
-            <div id="wi_l05">
-                <h4>Laboration 5</h4>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l05">
+                <h4>Laboration 1 Uppgift 05</h4>
                 <dl>
                     <dt>Uppgift</dt>
                     <dd>Länkar och mer listor</dd>
                 </dl>
-            </div>
-            <div id="wi_l06">
-                <h4>Laboration 6</h4>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l06">
+                <h4>Laboration 1 Uppgift 06</h4>
                 <dl>
                     <dt>Uppgift</dt>
                     <dd>Bilder <a href="../pics/person.png">Länk till bild</a></dd>
                 </dl>
-            </div>
-            <div id="wi_l07">
-                <h4>Laboration 7</h4>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l07">
+                <h4>Laboration 1 Uppgift 07</h4>
                 <dl>
                     <dt>Uppgift</dt>
                     <dd>Videotaggen <a href="../index.html#blogg-video">Kolla videon</a></dd>
                 </dl>
-            </div>
-            <div id="wi_l08">
-                <h4>Laboration 8</h4>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l08">
+                <h4>Laboration 1 Uppgift 08</h4>
                 <dl>
                     <dt>Uppgift</dt>
                     <dd>Laborationsresultat i en tabell <a href="#wi_resultat">Kolla tabellen</a></dd>
                 </dl>
-            </div>
-            <div id="wi_l09">
-                <h4>Laboration 9</h4>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l09">
+                <h4>Laboration 1 Uppgift 09</h4>
                 <dl>
                     <dt>Uppgift</dt>
                     <dd>Skapa ett formulär på kontaktsidan <a href="kontakt.html">Kolla in</a></dd>
                 </dl>
-            </div>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l21">
+                <h2>Laboration 2 - En stiligare portal</h2><br>
+                <h4>Laboration 2 Uppgift 01</h4>
+                <dl>
+                    <dt>Uppgift</dt>
+                    <dd>Använda stilmallar......check</dd>
+                </dl>
+            </div><br>
+            
+            <div class="uppgifter" id="wi_l22">
+                <h4>Laboration 2 Uppgift 02</h4>
+                <dl>
+                    <dt>Uppgift</dt>
+                    <dd>Layout.....check</dd>
+                </dl>
+            </div><br>
+            
+        </div><!-- End content -->
+        
+        <div class="footer">
+            <p>Copyright Filip Engström</p>
         </div>
+        
+        
+    </div> <!-- End Container -->    
     </body>
 </html>    

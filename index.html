@@ -3,21 +3,39 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>Filip Engström</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
-        <img src="pics/person.png" alt="logo">
-        <h1>Filip Engström</h1>
-        <ul>
-            <li><a href="index.html">Start</a></li>
-            <li><a href="pages/laborationer.html">Laborationer</a></li>
-            <li><a href="pages/presentation.html">Presentation</a></li>
-            <li><a href="pages/kontakt.html">Kontakt</a></li>
-        </ul>
+    <div class="container">
+    
+        <div class="header">
+            <div class="logo">
+                <img src="pics/person.png" alt="logo">
+                <h1>Filip Engström</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="pages/laborationer.html">Laborationer</a></li>
+                    <li><a href="pages/presentation.html">Presentation</a></li>
+                    <li><a href="pages/kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div> <!-- End Header -->
         
+    <div class="sidemenu">
+        <h3>Blogginlägg</h3>
+        <ul>
+            <li><a href="#video">Videotaggen</a></li>
+            <li><a href="#webb">Webbteknisk intro</a></li>
+            <li><a href="#hej">Hejsan Webben</a></li>
+        </ul>
+    </div>
+     
+     <div class="content">
         <div>
-            <h2>Blogg</h2>
             
-            <div id="blogg-video">
+            <div class="blogg_entry" id="video">
                 <h3>Videotaggen</h3>
                 <video width="320" height="240" controls>
                     <source src="http://download.blender.org/peach/trailer/trailer_400p.ogg" type="application/ogg">
@@ -27,7 +45,7 @@
                 <p>Skrivet av Filip, 2014-06-02</p>
             </div>
             
-            <div>
+            <div class="blogg_entry" id="webb">
                 <h3>Webbteknisk introduktion - Laboration 6</h3>
                 <p><a href="pages/laborationer.html#wi_l06">Kolla in labben</a></p>
             
@@ -47,11 +65,17 @@
                 <p>Skrivet av Filip, 2014-06-02</p>
             </div>
             
-            <div>
+            <div class="blogg_entry" id="hej">
                 <h3>Hejsan webben!</h3>
                 <p>På denna blogg kommer jag att presentera mina laborationer och projekt som jag gör under denna utbildning.</p>
                 <p>Skrivet av Filip, 2014-06-02</p>
             </div>
         </div>
+    </div>
+    
+    <div class="footer">
+        <p>Copyright Filip Engström</p>
+    </div>
+    </div>    
     </body>
 </html>

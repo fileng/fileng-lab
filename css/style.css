@@ -1,0 +1,107 @@
+*{margin:0; padding:0;}
+
+body {
+    background: #fff;
+    width: 100%;
+}
+
+/*Container*/
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+/*Header*/
+.header {
+    background: red;
+    height: 70px;
+    border:1px solid black;
+    margin-bottom:5px;
+}
+.header .logo{
+    width: 40%;
+    float: left;
+}
+.header .logo img {
+    float:left;
+    padding-top:10px;
+}
+.header .logo h1 {
+    padding-top:25px;
+}
+.header nav{
+    float:right;
+    width:60%;
+    height:60px;
+    position:relative;
+}
+.header ul{
+    float:right;
+    text-align:center;
+    position:absolute;
+    bottom:0;
+}
+.header ul li{
+    float:left;
+    width:100px;
+}
+.header ul li a{
+    display:block;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    text-decoration:underline;
+}
+ul{
+    list-style:none;
+}
+dd{
+    margin-left:40px;
+}
+
+/*Menu*/
+.sidemenu{
+    width:20%;
+    height:450px;
+    border:1px solid black;
+    float:left;
+}
+
+/*Content*/
+.content{
+    width:79%;
+    height:450px;
+    border:1px solid black;
+    float:right;
+    margin-bottom:5px;
+    overflow:scroll;
+}
+.form{
+    width:98%;
+    height:450px;
+    border:1px solid black;
+    margin-bottom:5px;
+}
+.form form{
+    width:400px;
+    margin:auto;
+}
+
+.blogg_entry, .uppgifter, .om_mig{
+    margin-left: 10px;
+    border-top:1px solid black;
+    padding:10px;
+}
+
+/*Footer*/
+.footer {
+    clear:both;
+    height:50px;
+    padding-top:5px;
+    border:1px solid black;
+    background: green;
+}
