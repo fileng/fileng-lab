@@ -2,6 +2,7 @@
     background-main: #071D70;
     background-divs: #1435AD;
     text-color: white;
+    button-color: #6E85D6;
 */
 
 
@@ -52,6 +53,11 @@ body {
 .header ul li{
     float:left;
     width:100px;
+    background: #6E85D6;
+    border: 1px solid black;
+}
+.header ul li:hover{
+    background: #2C3E82;
 }
 .header ul li a{
     display:block;
@@ -61,8 +67,8 @@ a{
     text-decoration:none;
     color:white;
 }
-a:hover{
-    text-decoration:underline;
+.active{
+    background: #2C3E82;
 }
 ul{
     list-style:none;
@@ -79,7 +85,16 @@ dd{
     float:left;
     background: #1435AD;
 }
-
+.sidemenu ul li{
+    background: #6E85D6;
+    border: 1px solid black;
+}
+.sidemenu ul li a{
+    display:block;
+}
+.sidemenu ul li a:hover{
+    background: #2C3E82;
+}
 /*Content*/
 .content{
     width:79%;
