@@ -122,6 +122,7 @@ dd{
     margin: 10px;
     border-top:1px solid white;
     padding:10px;
+    clear:both;
 }
 #png::before{
     display: block;
@@ -139,4 +140,10 @@ dd{
     padding-top:5px;
     border:1px solid black;
     background: #1435AD;
+}
+.right{
+    float:right;
+}
+.left{
+    float:left;
 }
